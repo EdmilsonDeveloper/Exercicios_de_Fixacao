@@ -6,10 +6,8 @@ body{
 
 .header{
     background-color: #9f9f9f;
-    color: black;
     width: 100%;
     position: fixed;
-    left: 0;
 }
 
 .conteudo{
@@ -48,7 +46,6 @@ main{
 
 .artigo{
     margin: 1px;
-    display: block;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
 }
@@ -63,7 +60,7 @@ main{
 
 p{
     text-align: left;
-    margin-left: 1px;
+    margin: 1px;
 }
 
 a{
@@ -73,11 +70,9 @@ a{
 
 .rodape{
     background-color: #9f9f9f;
-    color: black;
     margin-top: 10px;
     display: flex;
     justify-content: space-around;
-    width: 100%;
 }
 
 .img{
