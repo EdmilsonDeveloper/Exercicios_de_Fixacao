@@ -46,16 +46,16 @@ main{
     border-radius: 5px;
 }
 
-
 .artigo{
     margin: 2.5px;
     background-image: linear-gradient(to left, #CAE3FF, #FFABAB);
     overflow: hidden;
+    cursor: pointer;
 }
 
 .seção_extra{
     max-width: 400px;
-    background-color: rgb(255, 255, 255) ;
+    background-color: rgb(255, 255, 255);
     margin-top: 45px;
     float: right;
     text-align: center;
@@ -68,8 +68,18 @@ p{
 }
 
 a{
+    
+    padding: 5px;
+    border-radius: 5px;
     text-decoration: none;
     color: black;
+    display: inline-block;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+}
+a:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 .rodape{
