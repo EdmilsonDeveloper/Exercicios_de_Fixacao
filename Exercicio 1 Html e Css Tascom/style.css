@@ -21,10 +21,20 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 25px;
 }
 
 .s_g{
     max-width: 1202px;
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.s_g:hover{
+    transform: scale(1.02);
 }
 
 .seção_1{
@@ -77,6 +87,7 @@ a{
     transition: opacity 0.5s ease-in-out;
     opacity: 1;
 }
+
 a:hover{
     transform: scale(1.1);
     transition: all 0.5s;
@@ -99,4 +110,12 @@ a:hover{
 
 #home{
     color: #FFABAB;
+}
+
+.back_green{
+    background: #1e7f14;
+}
+
+.back_cinza{
+    background: #ffabab5d;
 }
